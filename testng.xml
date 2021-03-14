@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <listeners>
+<listener class-name="com.farmlead.listener.CustomListeners" />
+</listeners>
+  <test name="Test">
+
+    <classes>
+    <parameter name="user" value="z.mehta@farmlead.com"/>
+    <parameter name="pass" value="ZalakK-26"/>
+      <!-- <class name="com.farmlead.testcases.LoginLogoutTest"/> -->
+       <class name="com.farmlead.testcases.HomeMarketPlaceTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
