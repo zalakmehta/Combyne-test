@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.farmlead.listener.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <parameter name="pass" value="ZalakK-26"/>
+    <parameter name="user" value="z.mehta@farmlead.com"/>
+    <classes>
+      <class name="com.farmlead.testcases.HomeMarketPlaceTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="C191_BrowseMarketplaceForageAndStrawComodity" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.farmlead.testcases.HomeMarketPlaceTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
